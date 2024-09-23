@@ -1,4 +1,4 @@
-plotly.express==4.0.0
+plotly.express==0.4.1
 altair==5.4.1
 attrs==24.2.0
 bcrypt==4.2.0
