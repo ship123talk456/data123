@@ -1,90 +1,67 @@
 import streamlit as st
 import pandas as pd
-import altair as alt
+import matplotlib.pyplot as plt
 import plotly.express as px
-from geopy.geocoders import Nominatim
 import folium
+from streamlit_folium import st_folium
 
-# Page configuration
-st.set_page_config(
-    page_title="Port State Control Dashboard - Japan August 2024",
-    layout="wide",
-    initial_sidebar_state="expanded")
+# Load the CSV file into a DataFrame
+@st.cache_data
+def load_data(file_path):
+    data = pd.read_csv(file_path)
+    data['Date'] = pd.to_datetime(data['Date'])
+    return data
 
-# Load data
-df = pd.read_csv('japan2024Aug.csv')
+# Main App
+st.title("Japan PSC Inspection Dashboard - August 2024")
 
-# Convert date to datetime format
-df['Date'] = pd.to_datetime(df['Date'], format='%d.%m.%Y')
+# File path for CSV (replace with your local path if needed)
+csv_file = '/mnt/data/japan2024Aug.csv'
+df = load_data(csv_file)
 
-# Geocoding function
-def get_location(place_name):
-    geolocator = Nominatim(user_agent="geoapiExercises")
-    location = geolocator.geocode(place_name)
-    if location:
-        return [location.latitude, location.longitude]
-    else:
-        return [None, None]
+# Sidebar for filtering data
+st.sidebar.header("Filter Options")
+place_filter = st.sidebar.selectbox("Select Inspection Place", df['Place'].unique())
+month_filter = st.sidebar.slider("Select Month", 1, 12, 8)
 
-# Add latitude and longitude to the dataframe
-df['Latitude'], df['Longitude'] = zip(*df['Place'].apply(get_location))
+# Filter the data based on selections
+filtered_data = df[(df['Place'] == place_filter) & (df['Date'].dt.month == month_filter)]
 
-# Filter null locations
-df = df.dropna(subset=['Latitude', 'Longitude'])
+# Dashboard Metrics
+total_inspections = filtered_data.shape[0]
+total_deficiencies = filtered_data['Deficiencies'].sum()
+total_detentions = filtered_data['Detention'].sum()
 
-# Sidebar
-with st.sidebar:
-    st.title('🚢 Port State Control Dashboard')
-    
-    place_list = list(df['Place'].unique())
-    selected_place = st.selectbox('Select a place', place_list, index=0)
-    
-    df_filtered = df[df['Place'] == selected_place]
+# Display Metrics
+st.subheader(f"Overview of PSC Inspections in {place_filter} for August 2024")
+col1, col2, col3 = st.columns(3)
+col1.metric("Total Inspections", total_inspections)
+col2.metric("Total Deficiencies", total_deficiencies)
+col3.metric("Total Detentions", total_detentions)
 
-# Define the map visualization function
-def make_map(data):
-    map = folium.Map(location=[data['Latitude'].mean(), data['Longitude'].mean()], zoom_start=6, tiles='Stamen Terrain')
-    for index, row in data.iterrows():
-        folium.Marker(
-            location=[row['Latitude'], row['Longitude']],
-            popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
-        ).add_to(map)
-    return map
+# Visualization 1: Ship Risk Profile Distribution
+st.subheader("Ship Risk Profile Distribution")
+risk_profile_count = filtered_data['Ship Risk Profile at the time of inspection'].value_counts()
+fig1, ax1 = plt.subplots()
+ax1.pie(risk_profile_count, labels=risk_profile_count.index, autopct='%1.1f%%', startangle=90)
+ax1.axis('equal')
+st.pyplot(fig1)
 
-# Create a map
-map_fig = make_map(df_filtered)
+# Visualization 2: Deficiencies by Place
+st.subheader("Deficiencies by Place")
+deficiencies_by_place = df.groupby('Place')['Deficiencies'].sum().reset_index()
+fig2 = px.bar(deficiencies_by_place, x='Place', y='Deficiencies', title="Deficiencies by Inspection Place")
+st.plotly_chart(fig2)
 
-# Main panel
-st.subheader(f'Port State Control Dashboard for {selected_place}')
-st.map(map_fig)
+# Visualization 3: Map of Inspection Locations
+st.subheader("Inspection Locations Map")
+inspection_map = folium.Map(location=[35.682839, 139.759455], zoom_start=5)  # Centered on Japan
 
-# Bar chart for deficiencies
-deficiencies_chart = px.bar(
-    df_filtered,
-    x='Deficiencies',
-    y='Ship Name',
-    color='Deficiencies',
-    title='Deficiencies per Ship',
-    labels={'Deficiencies': 'Number of Deficiencies'},
-    height=600
-)
-st.subheader('Deficiencies per Ship')
-st.plotly_chart(deficiencies_chart, use_container_width=True)
+for _, row in filtered_data.iterrows():
+    folium.Marker(location=[row['Lat'], row['Long']],
+                  popup=f"Ship: {row['Ship Name']}, Deficiencies: {row['Deficiencies']}").add_to(inspection_map)
 
-# Table display
-st.subheader('Inspection Details')
-st.dataframe(df_filtered[['Type', 'Date', 'Place', 'IMO number', 'Ship Name', 'Flag', 'Deficiencies', 'Detention', 'Ship Risk Profile at the time of inspection']], height=500)
+st_folium(inspection_map, width=700, height=500)
 
-# Heatmap for inspection types over time
-heatmap_data = df_filtered.pivot_table(values='Deficiencies', index='Date', columns='Type', aggfunc='sum').fillna(0)
-heatmap = alt.Chart(heatmap_data.reset_index()).mark_rect().encode(
-    x='Date:O',
-    y='Type:O',
-    color='Deficiencies:Q',
-    tooltip=['Date', 'Type', 'Deficiencies']
-).properties(
-    width=600,
-    height=300
-)
-st.subheader('Heatmap of Inspections Over Time')
-st.altair_chart(heatmap, use_container_width=True)
+# Option to download filtered data
+st.sidebar.download_button(label="Download Filtered Data", data=filtered_data.to_csv(), mime='text/csv')
