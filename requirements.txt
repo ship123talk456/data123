@@ -1,3 +1,4 @@
+geopy==2.4.1
 plotly.express==0.4.1
 altair==5.4.1
 attrs==24.2.0
