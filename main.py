@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load data
-df = pd.read_csv('data/japan_port_inspections_2024_08.csv')
+df = pd.read_csv('japan2024Aug.csv')
 
 # Sidebar
 with st.sidebar:
