@@ -58,12 +58,14 @@ with st.sidebar:
 
 # Map visualization
 def make_map(data):
-    map = folium.Map(location=[36.2048, 138.2529], zoom_start=6, tiles='Stamen Terrain')
+    # Using a default tile layer that doesn't require custom attribution
+    map = folium.Map(location=[36.2048, 138.2529], zoom_start=6)
     for index, row in data.iterrows():
-        folium.Marker(
-            location=[row['Latitude'], row['Longitude']],
-            popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
-        ).add_to(map)
+        if pd.notna(row['Latitude']) and pd.notna(row['Longitude']):  # Check if latitude and longitude are not NaN
+            folium.Marker(
+                location=[row['Latitude'], row['Longitude']],
+                popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
+            ).add_to(map)
     return map
 
 # Generate map
