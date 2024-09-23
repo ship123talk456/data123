@@ -3,43 +3,12 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 import plotly.express as px
-import folium
 
 # Page configuration
 st.set_page_config(
     page_title="Port State Control Dashboard - Japan August 2024",
-    page_icon="🚢",
     layout="wide",
     initial_sidebar_state="expanded")
-
-alt.themes.enable("dark")
-
-# CSS styling
-st.markdown("""
-<style>
-[data-testid="block-container"] {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 0rem;
-    margin-bottom: -7rem;
-}
-[data-testid="stVerticalBlock"] {
-    padding-left: 0rem;
-    padding-right: 0rem;
-}
-[data-testid="stMetric"] {
-    background-color: #393939;
-    text-align: center;
-    padding: 15px 0;
-}
-[data-testid="stMetricLabel"] {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-</style>
-""", unsafe_allow_html=True)
 
 # Load data
 df = pd.read_csv('japan2024Aug.csv')
@@ -51,57 +20,66 @@ df['Date'] = pd.to_datetime(df['Date'], format='%d.%m.%Y')
 with st.sidebar:
     st.title('🚢 Port State Control Dashboard')
     
-    month_list = ['August']
-    selected_month = st.selectbox('Select a month', month_list, index=0)
-    
     place_list = list(df['Place'].unique())
     selected_place = st.selectbox('Select a place', place_list, index=0)
     
-    df_filtered = df[(df['Place'] == selected_place) & (df['Date'].dt.strftime('%B') == selected_month)]
+    df_filtered = df[df['Place'] == selected_place]
 
-# Map visualization
+# Define the map visualization function
 def make_map(data):
-    # Create a map centered around Japan
-    map = folium.Map(location=[36.2048, 138.2529], zoom_start=6, tiles='Stamen Terrain')
-    
-    # Add markers for each inspection location
-    for index, row in data.iterrows():
-        folium.Marker(
-            location=[row['Latitude'], row['Longitude']],
-            popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
-        ).add_to(map)
-    
-    return map
+    fig = px.scatter_geo(
+        data,
+        locations="Place",
+        locationmode='country names',
+        size='Deficiencies',
+        color='Deficiencies',
+        hover_name='Ship Name',
+        size_max=15,
+        projection='natural earth')
+    fig.update_geos(
+        visible=False,
+        zoom=1.2,
+        center=dict(lat=36.2048, lon=138.2529),
+        scalezoom=0.5)
+    return fig
 
-# Since we don't have Latitude and Longitude in the CSV, we'll skip the map part.
-# If you have this data, you can uncomment the following part and use make_map function.
+# Create a map
+map_fig = make_map(df_filtered)
 
-# Generate map
-# map = make_map(df_filtered)
-# st.map(map)
+# Main panel
+st.subheader(f'Port State Control Dashboard for {selected_place}')
+st.plotly_chart(map_fig, use_container_width=True)
 
-# Plots
-def make_heatmap(data):
-    heatmap = alt.Chart(data).mark_rect().encode(
-        y=alt.Y('Type:N', axis=alt.Axis(title="Inspection Type")),
-        x=alt.X('Date:N', axis=alt.Axis(title="Date")),
-        color=alt.Color('Deficiencies:Q', scale=alt.Scale(scheme='redyellowblue')),
-        tooltip=['Ship Name', 'Deficiencies', 'Detention']
-    ).properties(width=600, height=400)
-    return heatmap
+# Bar chart for deficiencies
+deficiencies_chart = px.bar(
+    df_filtered,
+    x='Deficiencies',
+    y='Ship Name',
+    color='Deficiencies',
+    title='Deficiencies per Ship',
+    labels={'Deficiencies': 'Number of Deficiencies'},
+    height=600
+)
+st.subheader('Deficiencies per Ship')
+st.plotly_chart(deficiencies_chart, use_container_width=True)
 
-heatmap = make_heatmap(df_filtered)
+# Table display
+st.subheader('Inspection Details')
+st.dataframe(df_filtered[['Type', 'Date', 'Place', 'IMO number', 'Ship Name', 'Flag', 'Deficiencies', 'Detention', 'Ship Risk Profile at the time of inspection']], height=500)
 
-# Dashboard Main Panel
-col1, col2 = st.columns([1, 3])
+# Set up Altair theme
+alt.themes.enable('dark')
 
-with col1:
-    st.markdown('#### Total Inspections')
-    st.metric(label='Total Inspections', value=len(df_filtered))
-
-with col2:
-    st.markdown('#### Inspections Heatmap')
-    st.altair_chart(heatmap, use_container_width=True)
-
-# If you have the latitude and longitude data, you can display the map with:
-# st.map(map)
+# Heatmap for inspection types over time
+heatmap_data = df_filtered.pivot_table(values='Deficiencies', index='Date', columns='Type', aggfunc='sum').fillna(0)
+heatmap = alt.Chart(heatmap_data.reset_index()).mark_rect().encode(
+    x='Date:O',
+    y='Type:O',
+    color='Deficiencies:Q',
+    tooltip=['Date', 'Type', 'Deficiencies']
+).properties(
+    width=600,
+    height=300
+)
+st.subheader('Heatmap of Inspections Over Time')
+st.altair_chart(heatmap, use_container_width=True)
