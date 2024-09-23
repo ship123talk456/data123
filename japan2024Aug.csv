@@ -1,0 +1,335 @@
+Type,Date,Place,IMO number,Ship Name,Callsign,MMSI,Flag,Deficiencies,Detention,Ship Risk Profile at the time of inspection
+initial inspection,30.08.2024,Niigata (Japan),9965100,TROPICAL ORCHID,3E2273,352002343,Panama,0,no,Low Risk Ship
+initial inspection,30.08.2024,Osaka (Japan),9520247,YUSHO MERMAID II,3ESQ2,370391000,Panama,7,no,Standard Risk Ship
+follow-up inspection,30.08.2024,Osaka (Japan),9520247,YUSHO MERMAID II,3ESQ2,370391000,Panama,4,no,
+initial inspection,30.08.2024,Sendaishiogama (Japan),9880685,NATIONAL GEOGRAPHIC RESOLUTION,C6EH2,311000893,Bahamas,0,no,Low Risk Ship
+initial inspection,30.08.2024,Yokohama (Japan),9631632,SINOTRANS QINGDAO,VRMG8,477767500,"Hong Kong, China",0,no,Low Risk Ship
+initial inspection,30.08.2024,Tomakomai (Japan),9624902,ISUZU,3FSN6,371884000,Panama,1,no,High Risk Ship
+initial inspection,30.08.2024,"Nagoya, Aichi (Japan)",9652325,ES HONESTY,3FIR,357431000,Panama,1,no,Standard Risk Ship
+initial inspection,30.08.2024,"Nagoya, Aichi (Japan)",9409704,ASIAN JOY,3FPH6,352236000,Panama,2,no,High Risk Ship
+follow-up inspection,30.08.2024,"Nagoya, Aichi (Japan)",9409704,ASIAN JOY,3FPH6,352236000,Panama,1,no,
+initial inspection,30.08.2024,"Naha, Okinawa (Japan)",9295218,PRESIDENT KENNEDY,WPKW,369339000,United States,1,no,High Risk Ship
+initial inspection,29.08.2024,Niigata (Japan),9929235,SUSTAINABLE EARTH,5LCG2,636021093,Liberia,0,no,Low Risk Ship
+initial inspection,29.08.2024,"Kashima, Ibaraki (Japan)",9612478,APOLLO STELLA,3FFX3,373303000,Panama,12,no,Standard Risk Ship
+initial inspection,29.08.2024,Sendaishiogama (Japan),1019993,EASTERN TRITON,5LQC9,636023931,Liberia,3,no,Standard Risk Ship
+initial inspection,29.08.2024,Yokohama (Japan),9545493,SHENG JIE 7,V3EV,312195000,Belize,10,no,High Risk Ship
+initial inspection,29.08.2024,Sendaishiogama (Japan),9360867,AL UTOURIYA,V7NU5,538003020,Marshall Islands,1,no,Standard Risk Ship
+initial inspection,29.08.2024,Osaka (Japan),9172117,FORTUNE TRADE I,3FDA8,352103000,Panama,5,no,Standard Risk Ship
+initial inspection,29.08.2024,"Nagoya, Aichi (Japan)",9333826,MOL EXPLORER,3EKT8,372827000,Panama,3,no,High Risk Ship
+initial inspection,29.08.2024,Kobe (Japan),9258727,SITC TOKYO,HONH,355449000,Panama,5,no,High Risk Ship
+initial inspection,29.08.2024,"Nagoya, Aichi (Japan)",9550175,SKY AURORA,DSQN2,441632000,"Korea, Republic of",1,no,Standard Risk Ship
+follow-up inspection,29.08.2024,"Nagoya, Aichi (Japan)",9550175,SKY AURORA,DSQN2,441632000,"Korea, Republic of",2,no,
+initial inspection,29.08.2024,Osaka (Japan),9248227,PANSTAR GENIE,D8FB,440642000,"Korea, Republic of",0,no,Low Risk Ship
+follow-up inspection,29.08.2024,Kobe (Japan),9258727,SITC TOKYO,HONH,355449000,Panama,3,no,
+initial inspection,29.08.2024,Yokohama (Japan),9342683,JIANG YUAN XING FU,BOFO4,413230310,China,4,no,High Risk Ship
+initial inspection,28.08.2024,Chiba (Japan),9980667,BRIGHT OAK,3E7442,352003271,Panama,0,no,High Risk Ship
+initial inspection,28.08.2024,"Kashima, Ibaraki (Japan)",9958444,APOLLO MARCH,3E2295,352002367,Panama,1,no,High Risk Ship
+follow-up inspection,28.08.2024,"Kashima, Ibaraki (Japan)",9958444,APOLLO MARCH,3E2295,352002367,Panama,2,no,
+initial inspection,28.08.2024,Osaka (Japan),9911874,STRAITS CITY,3EDP6,353293000,Panama,3,no,Low Risk Ship
+initial inspection,28.08.2024,Tomakomai (Japan),9343479,ULTIMAX,5LBT2,636020998,Liberia,0,no,Standard Risk Ship
+initial inspection,28.08.2024,Yokohama (Japan),9955040,SAIC ANJI ETERNITY,5LLL2,636022996,Liberia,0,no,Standard Risk Ship
+initial inspection,28.08.2024,Onomichi (Japan),8944111,ASAKA,D7BR,440123000,"Korea, Republic of",3,no,High Risk Ship
+initial inspection,28.08.2024,"Nagoya, Aichi (Japan)",9547154,KEN YO,H9UU,353579000,Panama,0,no,Standard Risk Ship
+initial inspection,27.08.2024,Tokyo (Japan),9469429,JIN DA 828,V3PE5,312376000,Belize,18,yes,High Risk Ship
+Remote follow-up inspection,27.08.2024,"Nagoya, Aichi (Japan)",9658874,CRYSTALIA,SVBX7,241300000,Greece,1,no,
+initial inspection,27.08.2024,Onomichi (Japan),9998303,BRAVE EMERALD,3E7703,352004211,Panama,2,no,Standard Risk Ship
+initial inspection,27.08.2024,"Kashima, Ibaraki (Japan)",9511246,AP JADRAN,9HA5388,215945000,Malta,1,no,High Risk Ship
+initial inspection,27.08.2024,Mizushima (Japan),9515682,DANSHIP BULKER,9HA2171,248092000,Malta,5,no,High Risk Ship
+initial inspection,27.08.2024,Osaka (Japan),9402990,C. MAJESTY,3FWV2,370783000,Panama,6,no,Standard Risk Ship
+follow-up inspection,27.08.2024,Mizushima (Japan),9515682,DANSHIP BULKER,9HA2171,248092000,Malta,1,no,
+initial inspection,27.08.2024,"Nagoya, Aichi (Japan)",9460071,ISARA BHUM,9VLP4,563841000,Singapore,0,no,Standard Risk Ship
+initial inspection,27.08.2024,Osaka (Japan),9884928,ZENITH CROWN,D7EA,440070000,"Korea, Republic of",4,no,Standard Risk Ship
+initial inspection,27.08.2024,Yokohama (Japan),9165188,SEGERO,DSPZ4,441500000,"Korea, Republic of",2,no,Low Risk Ship
+initial inspection,27.08.2024,Kobe (Japan),9158276,AQUARIUS LEADER,3EAX2,373630000,Panama,0,no,Standard Risk Ship
+initial inspection,26.08.2024,Tokuyama (Japan),9414008,DMC JUPITER,V3NG4,312066000,Belize,12,yes,High Risk Ship
+Remote follow-up inspection,26.08.2024,Shimizu (Japan),9774408,CRANE VESTA,3EWC6,374426000,Panama,2,no,
+initial inspection,26.08.2024,Wakamatsu/Kitakyushu (Japan),9839038,NSU ZENITH,H9DF,374398000,Panama,0,no,Standard Risk Ship
+initial inspection,26.08.2024,Imabari (Japan),9578139,BO RUN XIAN FENG,BTJY,413375860,China,5,no,Standard Risk Ship
+initial inspection,26.08.2024,Yokohama (Japan),9561277,GLORIOUS ACE,ZGAL,319409000,Cayman Islands (GB),2,no,Standard Risk Ship
+initial inspection,26.08.2024,"Kashima, Ibaraki (Japan)",9599092,BRIGHT GEMINI,3FOX6,355959000,Panama,1,no,Standard Risk Ship
+initial inspection,26.08.2024,Chiba (Japan),9727455,CF DIAMOND,V7JH8,538006995,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,26.08.2024,Shimizu (Japan),9774408,CRANE VESTA,3EWC6,374426000,Panama,1,no,Standard Risk Ship
+initial inspection,26.08.2024,Kobe (Japan),9358022,PACIFIC ENDEAVOUR,D5SO2,636021429,Liberia,0,no,High Risk Ship
+initial inspection,26.08.2024,Mizushima (Japan),9593220,MARAN NOBILITY,SVBS8,241256000,Greece,0,no,Low Risk Ship
+initial inspection,26.08.2024,"Nagoya, Aichi (Japan)",9616010,GINGA,VRLO9,477319100,"Hong Kong, China",0,no,High Risk Ship
+initial inspection,26.08.2024,Wakamatsu/Kitakyushu (Japan),9088782,YUN QIAN 1,V3VD7,312400000,Belize,4,no,High Risk Ship
+initial inspection,26.08.2024,Osaka (Japan),9534810,NADESHIKO GAS,3FIJ3,370313000,Panama,2,no,High Risk Ship
+initial inspection,26.08.2024,Oita (Japan),9654476,LALUAN,3FYZ,371877000,Panama,2,no,Low Risk Ship
+initial inspection,26.08.2024,"Nagoya, Aichi (Japan)",9890537,PRINCE OF NATURE,3FQA3,354642000,Panama,0,no,Standard Risk Ship
+follow-up inspection,24.08.2024,Kobe (Japan),9466881,SEA LIBRA,9V9548,563219900,Singapore,1,no,
+initial inspection,23.08.2024,Chiba (Japan),9793313,KEUM YANG 2,D8GZ,440711000,"Korea, Republic of",11,no,Standard Risk Ship
+initial inspection,23.08.2024,"Nagoya, Aichi (Japan)",9658874,CRYSTALIA,SVBX7,241300000,Greece,2,no,Standard Risk Ship
+follow-up inspection,23.08.2024,Chiba (Japan),9793313,KEUM YANG 2,D8GZ,440711000,"Korea, Republic of",3,no,
+initial inspection,23.08.2024,Hakata/Fukuoka (Japan),9549372,OCCITAN LISTRAC,9HA5716,256153000,Malta,2,no,High Risk Ship
+initial inspection,23.08.2024,Muroran (Japan),9748784,SHANDONG FU REN,VRRZ6,477202400,"Hong Kong, China",0,no,Standard Risk Ship
+initial inspection,23.08.2024,Mizushima (Japan),9104665,JINHUA 11,3FRM3,356725000,Panama,6,no,High Risk Ship
+initial inspection,23.08.2024,Osaka (Japan),9697856,FEDERAL BISCAY,V7NC8,538006434,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,23.08.2024,Wakamatsu/Kitakyushu (Japan),9973793,ASIAN MARVELOUS,DUIS,548951000,Philippines,0,no,Standard Risk Ship
+follow-up inspection,23.08.2024,Mizushima (Japan),9104665,JINHUA 11,3FRM3,356725000,Panama,5,no,
+initial inspection,23.08.2024,Yokkaichi (Japan),9072903,GLOBAL 687,JVQK8,457900782,Mongolia,2,no,High Risk Ship
+initial inspection,23.08.2024,"Nagoya, Aichi (Japan)",9441556,HERITAGE LEADER,C6YP2,311040700,Bahamas,0,no,Low Risk Ship
+initial inspection,23.08.2024,Wakamatsu/Kitakyushu (Japan),9987184,FOTINI,5LQS6,636024048,Liberia,0,no,Standard Risk Ship
+initial inspection,22.08.2024,Shimonoseki (Japan),9913963,SUNRISE SUMMER,3E4111,352978147,Panama,1,no,Standard Risk Ship
+initial inspection,22.08.2024,Kagoshima (Japan),9633862,XIU SHAN,BQGW,413331990,China,6,no,Low Risk Ship
+initial inspection,22.08.2024,Kawasaki (Japan),1036472,XIANG YI 7,V3NA8,312358000,Belize,12,no,High Risk Ship
+initial inspection,22.08.2024,Himeji (Japan),9587001,ZHEN HAO 7,3E6053,352003179,Panama,12,no,High Risk Ship
+initial inspection,22.08.2024,Mizushima (Japan),9723631,PERSEUS,3FIA5,354225000,Panama,2,no,High Risk Ship
+initial inspection,22.08.2024,Kobe (Japan),9764087,AQUAGRACE,3EOP3,371355000,Panama,3,no,Standard Risk Ship
+initial inspection,22.08.2024,Moji/Kitakyushu (Japan),9397987,AQUAMARINE ACE,3E3537,352980798,Panama,0,no,Low Risk Ship
+initial inspection,22.08.2024,Wakayama (Japan),9827578,OINOUSSIAN STAR,V7RR4,538008072,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,21.08.2024,Onomichi (Japan),9479228,GOLDEN GAYLE,V7XK2,538004500,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,21.08.2024,Sasebo (Japan),9238648,JANGHO ANGEL,D7GK,440212000,"Korea, Republic of",4,no,High Risk Ship
+initial inspection,21.08.2024,"Kashima, Ibaraki (Japan)",9561942,SKY KNIGHT,3FWH2,373733000,Panama,0,no,High Risk Ship
+initial inspection,21.08.2024,Chiba (Japan),9782663,BUNUN POWER,3FAA,351184000,Panama,1,no,Standard Risk Ship
+initial inspection,21.08.2024,Osaka (Japan),9135327,LI ZE,V3IQ2,312780000,Belize,6,no,High Risk Ship
+initial inspection,21.08.2024,"Naha, Okinawa (Japan)",9559470,SHINLINE 10,9WFE4,533002720,Malaysia,0,no,Low Risk Ship
+initial inspection,21.08.2024,Kawasaki (Japan),9283863,CAPRICORNUS LEADER,9V2816,564902000,Singapore,0,no,Standard Risk Ship
+initial inspection,21.08.2024,"Nagoya, Aichi (Japan)",9618020,ARETHOUSA,5BNN3,209785000,Cyprus,0,no,Standard Risk Ship
+initial inspection,21.08.2024,"Nagoya, Aichi (Japan)",9340570,GRAND CHAMPION,3EOR3,372613000,Panama,0,no,Standard Risk Ship
+follow-up inspection,21.08.2024,"Nagoya, Aichi (Japan)",9340570,GRAND CHAMPION,3EOR3,372613000,Panama,6,no,
+initial inspection,21.08.2024,Hiroshima (Japan),9279329,GRAND DOLPHIN,H3WF,355708000,Panama,2,no,Standard Risk Ship
+initial inspection,21.08.2024,Kagoshima (Japan),9666728,JIA HE 88,V3IJ3,312899000,Belize,5,no,Standard Risk Ship
+initial inspection,21.08.2024,Mizushima (Japan),9573672,VENDOME STREET,A8YI6,636015064,Liberia,2,no,Standard Risk Ship
+initial inspection,21.08.2024,Moji/Kitakyushu (Japan),9690523,HARVEST LEADER,C6AX8,311000187,Bahamas,0,no,Low Risk Ship
+follow-up inspection,21.08.2024,Sendaishiogama (Japan),7929786,BUKHTA NATALII,UBNI6,273358660,Russian Federation,4,no,
+initial inspection,20.08.2024,"Nagoya, Aichi (Japan)",9154622,JING RUN,V3ZK3,312200000,Belize,4,yes,High Risk Ship
+initial inspection,20.08.2024,Tokushima (Japan),9466881,SEA LIBRA,9V9548,563219900,Singapore,5,yes,High Risk Ship
+initial inspection,20.08.2024,Uwajima (Japan),9218155,YAVIRAU,JVQE8,457900781,Mongolia,2,no,High Risk Ship
+initial inspection,20.08.2024,Sendaishiogama (Japan),7929786,BUKHTA NATALII,UBNI6,273358660,Russian Federation,6,no,Standard Risk Ship
+initial inspection,20.08.2024,Sendaishiogama (Japan),8904941,DHARA,D7WB,440686000,"Korea, Republic of",8,no,Standard Risk Ship
+initial inspection,20.08.2024,Ishinomaki (Japan),9363687,GROWTH RING,3FTL8,370997000,Panama,1,no,Standard Risk Ship
+initial inspection,20.08.2024,Yokohama (Japan),9646211,TONG SHUN,3EHX4,372632000,Panama,2,no,High Risk Ship
+initial inspection,20.08.2024,Chiba (Japan),9319258,SOUTHERN ANGEL,H8TU,354587000,Panama,0,no,High Risk Ship
+follow-up inspection,20.08.2024,Chiba (Japan),9319258,SOUTHERN ANGEL,H8TU,354587000,Panama,2,no,
+initial inspection,20.08.2024,Yokkaichi (Japan),9767742,KOKA MARU,3FAZ3,371068000,Panama,6,no,Standard Risk Ship
+follow-up inspection,20.08.2024,Yokohama (Japan),9646211,TONG SHUN,3EHX4,372632000,Panama,2,no,
+initial inspection,20.08.2024,"Kashima, Ibaraki (Japan)",9286970,ARGOLIS,V7AT5,538005063,Marshall Islands,0,no,High Risk Ship
+initial inspection,20.08.2024,Tokuyama (Japan),9792424,SUNLEAF STAR,D5MM8,636017740,Liberia,0,no,High Risk Ship
+initial inspection,20.08.2024,Mizushima (Japan),9840790,DARYA RAMA,VRRV6,477172600,"Hong Kong, China",3,no,Standard Risk Ship
+initial inspection,20.08.2024,Osaka (Japan),9511143,SUNNY ORION,3EWD7,354663000,Panama,0,no,Low Risk Ship
+initial inspection,20.08.2024,"Nagoya, Aichi (Japan)",9210000,FUJITRANS WORLD,D5FO6,636016327,Liberia,0,no,Standard Risk Ship
+initial inspection,20.08.2024,Himeji (Japan),9217838,XI TAI,V3LU,312649000,Belize,3,no,High Risk Ship
+follow-up inspection,20.08.2024,Himeji (Japan),9217838,XI TAI,V3LU,312649000,Belize,6,no,
+initial inspection,19.08.2024,Kawasaki (Japan),9530620,XING GUANG 18,3EWT2,372720000,Panama,21,yes,High Risk Ship
+initial inspection,19.08.2024,Wakamatsu/Kitakyushu (Japan),9476147,BD PIONEER 1,3WFQ9,574001330,Vietnam,5,no,Standard Risk Ship
+initial inspection,19.08.2024,"Nagoya, Aichi (Japan)",9036600,AMUR,9LU2927,667002124,Sierra Leone,2,no,High Risk Ship
+initial inspection,19.08.2024,Muroran (Japan),9590125,KYNOURIA,V7VY6,538004243,Marshall Islands,1,no,High Risk Ship
+initial inspection,19.08.2024,Onomichi (Japan),9757917,KN ARCADIA,9V3913,563017900,Singapore,0,no,Standard Risk Ship
+initial inspection,19.08.2024,Wakamatsu/Kitakyushu (Japan),1014137,CHARIOTEER,3E7661,352004163,Panama,0,no,Standard Risk Ship
+initial inspection,19.08.2024,Ishinomaki (Japan),8585769,JIN DONG 6,V3LF2,312221000,Belize,18,no,High Risk Ship
+follow-up inspection,19.08.2024,Ishinomaki (Japan),8585769,JIN DONG 6,V3LF2,312221000,Belize,4,no,
+initial inspection,19.08.2024,Kushiro (Japan),9578220,YONG SHENG VII,3FGM9,357196000,Panama,2,no,High Risk Ship
+initial inspection,19.08.2024,Sendaishiogama (Japan),9787792,BRIGHT CREST,3FIH4,354479000,Panama,0,no,Low Risk Ship
+initial inspection,19.08.2024,"Nagoya, Aichi (Japan)",9477672,MATSUSHIRO,3FCX9,370055000,Panama,0,no,Standard Risk Ship
+initial inspection,19.08.2024,Tomakomai (Japan),9310226,GOLDEN SKY HANA,D7NM,440250000,"Korea, Republic of",0,no,Standard Risk Ship
+initial inspection,19.08.2024,Yokkaichi (Japan),9691395,PS FRAMURA,9HA5232,215658000,Malta,2,no,High Risk Ship
+initial inspection,19.08.2024,Mizushima (Japan),9860386,PAN SAPPHIRE,D7KF,440377000,"Korea, Republic of",2,no,Standard Risk Ship
+initial inspection,19.08.2024,Onahama (Japan),9782039,ISUZU MARU,V7AM4,538007367,Marshall Islands,1,no,Standard Risk Ship
+initial inspection,19.08.2024,Himeji (Japan),9161625,RUN FENG,V3HX2,312656000,Belize,7,no,High Risk Ship
+initial inspection,19.08.2024,Hiroshima (Japan),9591052,MERCURY ACE,3FNS7,370644000,Panama,0,no,Standard Risk Ship
+follow-up inspection,19.08.2024,Yokkaichi (Japan),9691395,PS FRAMURA,9HA5232,215658000,Malta,1,no,
+follow-up inspection,19.08.2024,Himeji (Japan),9161625,RUN FENG,V3HX2,312656000,Belize,3,no,
+follow-up inspection,19.08.2024,"Nagoya, Aichi (Japan)",9036600,AMUR,9LU2927,667002124,Sierra Leone,2,no,
+initial inspection,19.08.2024,Osaka (Japan),9848766,MORESBY CHIEF,VRSL3,477455700,"Hong Kong, China",0,no,Low Risk Ship
+initial inspection,19.08.2024,Kawasaki (Japan),9609512,KING MILO,3FGT3,373681000,Panama,1,no,Standard Risk Ship
+initial inspection,16.08.2024,Takamatsu (Japan),8743749,DONG HUA 17,3E4021,352001275,Panama,22,yes,High Risk Ship
+initial inspection,16.08.2024,Niigata (Japan),9323687,CLEAN ENERGY,V7LG8,538002742,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,16.08.2024,"Naha, Okinawa (Japan)",9594676,SILVER LUCKY,VRHT4,477746300,"Hong Kong, China",3,no,Standard Risk Ship
+initial inspection,16.08.2024,"Misumi, Kumamoto (Japan)",9727053,DYNA CRANE,9V3000,566169000,Singapore,1,no,Standard Risk Ship
+initial inspection,16.08.2024,Mizushima (Japan),9750919,BERGE ZUGSPITZE,2ITG2,235112622,Isle of Man (GB),2,no,Standard Risk Ship
+initial inspection,16.08.2024,Yokkaichi (Japan),9138513,DON PASQUALE,LATF8,259023000,Norway,5,no,Standard Risk Ship
+initial inspection,16.08.2024,Onomichi (Japan),9313230,SUN VESTA,D7ME,440098000,"Korea, Republic of",2,no,Standard Risk Ship
+initial inspection,16.08.2024,Moji/Kitakyushu (Japan),9855458,PAULA TRADER,3FRJ6,356108000,Panama,0,no,Standard Risk Ship
+initial inspection,16.08.2024,Kobe (Japan),9382396,HOEGH OSLO,LAEK7,259739000,Norway,1,no,Standard Risk Ship
+initial inspection,16.08.2024,Osaka (Japan),9334105,TAN CANG GLORY,XVFA9,574002930,Vietnam,4,no,High Risk Ship
+initial inspection,16.08.2024,Osaka (Japan),9206061,SOLENT STAR,C6DU3,311000784,Bahamas,2,no,Low Risk Ship
+initial inspection,16.08.2024,"Nagoya, Aichi (Japan)",9562453,TRAWIND DOLPHIN,3EWW9,373415000,Panama,2,no,Standard Risk Ship
+follow-up inspection,16.08.2024,"Nagoya, Aichi (Japan)",9562453,TRAWIND DOLPHIN,3EWW9,373415000,Panama,1,no,
+initial inspection,16.08.2024,Wakamatsu/Kitakyushu (Japan),9951939,BERGE MAUNA KEA,MOTS7,232053197,Isle of Man (GB),0,no,Standard Risk Ship
+initial inspection,16.08.2024,Kushiro (Japan),9486960,JIN SHUN,3EQS4,356267000,Panama,1,no,Standard Risk Ship
+initial inspection,16.08.2024,Wakayama (Japan),9571507,MARSGRACHT,PCJD,246767000,Netherlands,2,no,High Risk Ship
+initial inspection,16.08.2024,Tomakomai (Japan),8847038,VOLGA-4011,UBNJ,273358200,Russian Federation,3,no,Standard Risk Ship
+follow-up inspection,16.08.2024,Tomakomai (Japan),8847038,VOLGA-4011,UBNJ,273358200,Russian Federation,2,no,
+initial inspection,16.08.2024,Tokuyama (Japan),9932763,MARGUERITE,3E3476,352001570,Panama,0,no,Standard Risk Ship
+initial inspection,15.08.2024,Yokkaichi (Japan),9332195,OOCL ZHOUSHAN,VRCB4,477282300,"Hong Kong, China",3,no,Standard Risk Ship
+initial inspection,15.08.2024,Nanao (Japan),9925423,CRANE SOL,H9HZ,374638000,Panama,1,no,Standard Risk Ship
+initial inspection,15.08.2024,Imabari (Japan),9601340,IOLI,D5BL3,636015549,Liberia,0,no,High Risk Ship
+follow-up inspection,15.08.2024,Nanao (Japan),9925423,CRANE SOL,H9HZ,374638000,Panama,1,no,
+initial inspection,15.08.2024,"Nagoya, Aichi (Japan)",9788851,TRANS HARMONY 2,3ECJ7,352409000,Panama,0,no,Standard Risk Ship
+initial inspection,15.08.2024,Sendaishiogama (Japan),9788590,ETERNAL SUNSHINE,D5SO3,636019017,Liberia,0,no,Low Risk Ship
+initial inspection,15.08.2024,Mizushima (Japan),9490117,CORNELIA M,D5ZQ8,636020538,Liberia,0,no,High Risk Ship
+initial inspection,15.08.2024,Wakayama (Japan),9602148,SINOKOR SUNRISE,V7WD2,538004269,Marshall Islands,10,no,High Risk Ship
+initial inspection,15.08.2024,Osaka (Japan),8926327,HIROYUKI,V3AF2,312185000,Belize,3,no,High Risk Ship
+initial inspection,15.08.2024,"Nagoya, Aichi (Japan)",9687655,GLOBAL HOSPITALITY,H8WY,371962000,Panama,0,no,Standard Risk Ship
+follow-up inspection,15.08.2024,"Nagoya, Aichi (Japan)",9687655,GLOBAL HOSPITALITY,H8WY,371962000,Panama,2,no,
+follow-up inspection,15.08.2024,Mizushima (Japan),9490117,CORNELIA M,D5ZQ8,636020538,Liberia,1,no,
+initial inspection,15.08.2024,Hakata/Fukuoka (Japan),9499955,KSL GOLDEN,3FPV9,370851000,Panama,2,no,High Risk Ship
+initial inspection,15.08.2024,Osaka (Japan),9373113,DK IWAY,D7EN,441411000,"Korea, Republic of",5,no,High Risk Ship
+initial inspection,15.08.2024,Kobe (Japan),9959826,CITRUS TIGER,3E7427,352003256,Panama,0,no,Standard Risk Ship
+initial inspection,15.08.2024,Hiroshima (Japan),9403853,HYPERION,C6WS5,309947000,Bahamas,2,no,High Risk Ship
+initial inspection,15.08.2024,Tomakomai (Japan),9413042,PHOENIX,D7AS,440267000,"Korea, Republic of",0,no,High Risk Ship
+initial inspection,14.08.2024,Niigata (Japan),9768382,GEORGIY BRUSILOV,5BSW4,212770000,Cyprus,0,no,Standard Risk Ship
+initial inspection,14.08.2024,Imabari (Japan),9151448,SC ETERNITY XLVII,PMHQ,525009331,Indonesia,15,no,High Risk Ship
+initial inspection,14.08.2024,Mizushima (Japan),8590697,OCEANWIN 16,9LU2822,667002019,Sierra Leone,18,no,High Risk Ship
+initial inspection,14.08.2024,Wakamatsu/Kitakyushu (Japan),9667112,PALONA,V7A4765,538009451,Marshall Islands,1,no,Low Risk Ship
+initial inspection,14.08.2024,Kobe (Japan),9263772,LUCKY BAY,3EJT9,354255000,Panama,8,no,High Risk Ship
+initial inspection,14.08.2024,Kobe (Japan),9937828,APOLLO SPLENDOR,3E2081,352898823,Panama,0,no,Standard Risk Ship
+initial inspection,14.08.2024,Takamatsu (Japan),9623829,LEMESSOS LION,5BMR4,210944000,Cyprus,0,no,Standard Risk Ship
+initial inspection,14.08.2024,Chiba (Japan),9668348,NSU NEWSTAR,3EXK4,353349000,Panama,0,no,Low Risk Ship
+initial inspection,14.08.2024,Osaka (Japan),9498688,PACIFIC QINGDAO,D5RS8,636018863,Liberia,2,no,High Risk Ship
+initial inspection,14.08.2024,"Nagoya, Aichi (Japan)",9974101,NEREUS HIGHWAY,3E5376,352003983,Panama,0,no,Standard Risk Ship
+initial inspection,14.08.2024,Onahama (Japan),9644304,LEGATO II,3FRD6,371377000,Panama,1,no,Standard Risk Ship
+follow-up inspection,14.08.2024,Kobe (Japan),9263772,LUCKY BAY,3EJT9,354255000,Panama,2,no,
+initial inspection,14.08.2024,Osaka (Japan),9181144,BALTIC HEATHER,C6EQ7,311000973,Bahamas,0,no,Standard Risk Ship
+follow-up inspection,14.08.2024,Onahama (Japan),9644304,LEGATO II,3FRD6,371377000,Panama,1,no,
+initial inspection,14.08.2024,Yokohama (Japan),9320233,GJERTRUD MAERSK,OYGH2,220414000,Denmark,0,no,Standard Risk Ship
+initial inspection,13.08.2024,Yokohama (Japan),9888479,OWUSU MARU,3FYB9,354490000,Panama,2,no,Standard Risk Ship
+initial inspection,13.08.2024,Imabari (Japan),9942809,ORBIT,3E3439,352001175,Panama,1,no,High Risk Ship
+initial inspection,13.08.2024,Chiba (Japan),9953690,MINERAL DEUTSCHLAND,ONLU,205204000,Belgium,0,no,Standard Risk Ship
+initial inspection,13.08.2024,Osaka (Japan),9570589,SUN EDELWEISS,V7A2776,538008803,Marshall Islands,5,no,High Risk Ship
+follow-up inspection,13.08.2024,Imabari (Japan),9942809,ORBIT,3E3439,352001175,Panama,2,no,
+initial inspection,13.08.2024,Kawasaki (Japan),9710749,HOEGH TROTTER,LAUO7,259274000,Norway,0,no,Standard Risk Ship
+initial inspection,13.08.2024,Wakamatsu/Kitakyushu (Japan),9786035,GUANG XIN,BRWM,414305000,China,0,no,Low Risk Ship
+follow-up inspection,13.08.2024,Kawasaki (Japan),9710749,HOEGH TROTTER,LAUO7,259274000,Norway,1,no,
+initial inspection,13.08.2024,"Nagoya, Aichi (Japan)",8907254,ELDUGA,5VEO8,671806000,Togo,1,no,High Risk Ship
+initial inspection,13.08.2024,Kobe (Japan),9878503,YM TRAVEL,9V9758,563232300,Singapore,0,no,Standard Risk Ship
+follow-up inspection,09.08.2024,Mizushima (Japan),9633032,GLOBAL ANDES,3EUV2,355026000,Panama,4,no,
+initial inspection,09.08.2024,Kushiro (Japan),0,NISHIMURA 1201,N/A,0,"Korea, Republic of",1,no,
+initial inspection,09.08.2024,Tokuyama (Japan),9840972,UNITED SAPPHIRE,3FUK5,356879000,Panama,0,no,Standard Risk Ship
+initial inspection,09.08.2024,Kushiro (Japan),9776353,ENVIROS SURVEYOR,D7XA,441419000,"Korea, Republic of",2,no,Standard Risk Ship
+initial inspection,09.08.2024,Tomakomai (Japan),9698379,HEUNG-A SARAH,3ELR4,353059000,Panama,0,no,Standard Risk Ship
+initial inspection,09.08.2024,Tomakomai (Japan),9470911,MARIA MAJESTY,V7A6373,538010960,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,09.08.2024,Kobe (Japan),9749257,DSI ANDROMEDA,V7RH6,538006798,Marshall Islands,1,no,High Risk Ship
+initial inspection,09.08.2024,"Kure, Hiroshima (Japan)",9725691,GLOBAL DISCOVERY,YJWA2,577332000,Vanuatu,1,no,Standard Risk Ship
+initial inspection,09.08.2024,Onomichi (Japan),9499084,GLORIOSA LILY,3FWE4,373101000,Panama,0,no,Low Risk Ship
+initial inspection,09.08.2024,Mizushima (Japan),9633032,GLOBAL ANDES,3EUV2,355026000,Panama,2,no,High Risk Ship
+initial inspection,09.08.2024,Hachinohe (Japan),9751377,XIU YU HAI,VRPQ5,477137800,"Hong Kong, China",0,no,Low Risk Ship
+initial inspection,09.08.2024,Osaka (Japan),9300441,EVER STRONG,9V5282,563004900,Singapore,0,no,High Risk Ship
+follow-up inspection,09.08.2024,Osaka (Japan),9300441,EVER STRONG,9V5282,563004900,Singapore,3,no,
+initial inspection,09.08.2024,"Nagoya, Aichi (Japan)",9137557,SHI SHANG 18,BVLP5,413700420,China,0,no,High Risk Ship
+follow-up inspection,09.08.2024,"Nagoya, Aichi (Japan)",9137557,SHI SHANG 18,BVLP5,413700420,China,1,no,
+initial inspection,09.08.2024,Oita (Japan),9410600,BELLE ROSE,3FFU3,355783000,Panama,1,no,High Risk Ship
+initial inspection,08.08.2024,Kushiro (Japan),9335367,SINO-OCEAN NO. 1,V3GX3,312609000,Belize,1,no,High Risk Ship
+follow-up inspection,08.08.2024,Kushiro (Japan),9335367,SINO-OCEAN NO. 1,V3GX3,312609000,Belize,3,no,
+initial inspection,08.08.2024,Tokuyama (Japan),9033842,BR FAIRY,3FQW8,356970000,Panama,0,no,High Risk Ship
+initial inspection,08.08.2024,Osaka (Japan),9252759,SC VENUS,VREL6,477136400,"Hong Kong, China",3,no,High Risk Ship
+initial inspection,08.08.2024,Onomichi (Japan),9179232,HOLLY,JVQC8,457900779,Mongolia,5,no,Standard Risk Ship
+initial inspection,08.08.2024,Imabari (Japan),9321782,KEOYOUNG SUN 3,D7LG,441852000,"Korea, Republic of",3,no,High Risk Ship
+initial inspection,08.08.2024,Onahama (Japan),9865324,SUNSHINE PRIDE,3FZI3,355517000,Panama,0,no,Standard Risk Ship
+follow-up inspection,08.08.2024,Onahama (Japan),9865324,SUNSHINE PRIDE,3FZI3,355517000,Panama,1,no,
+follow-up inspection,08.08.2024,Imabari (Japan),9321782,KEOYOUNG SUN 3,D7LG,441852000,"Korea, Republic of",2,no,
+initial inspection,08.08.2024,Onomichi (Japan),9963293,GLOBAL GREEN,MNPS8,232047535,Isle of Man (GB),0,no,Standard Risk Ship
+follow-up inspection,08.08.2024,Hakata/Fukuoka (Japan),9151113,PROCYON,3FWY6,355076000,Panama,3,no,
+initial inspection,08.08.2024,Hakata/Fukuoka (Japan),9427550,SPRING SKY,V7A5966,538010380,Marshall Islands,3,no,Standard Risk Ship
+initial inspection,08.08.2024,Mizushima (Japan),9700823,CAPE HOPE,3FNK4,352286000,Panama,1,no,Standard Risk Ship
+initial inspection,08.08.2024,"Nagoya, Aichi (Japan)",1014424,BRAVE EAGLE,V7A6487,538011036,Marshall Islands,0,no,High Risk Ship
+initial inspection,08.08.2024,Shimizu (Japan),9912361,KANAVU BENEFIT,3E3935,352986193,Panama,0,no,Standard Risk Ship
+initial inspection,08.08.2024,Tomakomai (Japan),9922653,WOO JIN,D7CQ,440024000,"Korea, Republic of",0,no,Standard Risk Ship
+initial inspection,07.08.2024,"Nagoya, Aichi (Japan)",9425813,AETOLIA,8PWK,314311000,Barbados,1,yes,Standard Risk Ship
+initial inspection,07.08.2024,Imabari (Japan),9940306,CS HANA,3E2119,352001359,Panama,4,no,High Risk Ship
+follow-up inspection,07.08.2024,Imabari (Japan),9940306,CS HANA,3E2119,352001359,Panama,1,no,
+initial inspection,07.08.2024,Tomakomai (Japan),8356986,YUAN CHEN 7,V3JA,312828000,Belize,5,no,High Risk Ship
+initial inspection,07.08.2024,Kawasaki (Japan),9553012,OCEAN SPRING,VRRP2,477154800,"Hong Kong, China",2,no,Standard Risk Ship
+initial inspection,07.08.2024,Moji/Kitakyushu (Japan),9615107,SEA SMILE,D5BT2,636015598,Liberia,1,no,Standard Risk Ship
+initial inspection,07.08.2024,Onomichi (Japan),9365427,AQUILA,D7TN,441323000,"Korea, Republic of",0,no,Standard Risk Ship
+initial inspection,07.08.2024,Yokohama (Japan),9994802,HARMONY,5LKQ9,636022837,Liberia,5,no,Standard Risk Ship
+initial inspection,07.08.2024,Niigata (Japan),9847956,GAS NOUVEAU CRYSTAL,9V9632,563221800,Singapore,0,no,Standard Risk Ship
+initial inspection,07.08.2024,Tokuyama (Japan),9374882,GASCHEM LEDA,D5EM8,636016112,Liberia,0,no,Low Risk Ship
+initial inspection,07.08.2024,Chiba (Japan),9537018,ES KURE,3FHO3,373061000,Panama,0,no,Standard Risk Ship
+follow-up inspection,07.08.2024,Chiba (Japan),9537018,ES KURE,3FHO3,373061000,Panama,1,no,
+initial inspection,07.08.2024,Mizushima (Japan),9995777,ASIAN LILY,V7A6672,538011156,Marshall Islands,0,no,Standard Risk Ship
+follow-up inspection,07.08.2024,Tokuyama (Japan),9374882,GASCHEM LEDA,D5EM8,636016112,Liberia,1,no,
+initial inspection,07.08.2024,Wakamatsu/Kitakyushu (Japan),9396256,QING JI,3EFI8,354495000,Panama,1,no,High Risk Ship
+initial inspection,07.08.2024,Osaka (Japan),9536105,KAI PING,VREN7,477143800,"Hong Kong, China",3,no,High Risk Ship
+initial inspection,07.08.2024,"Nagoya, Aichi (Japan)",9507441,ST BELLA,D7DM,440056000,"Korea, Republic of",1,no,High Risk Ship
+initial inspection,07.08.2024,Oita (Japan),9576894,SEA ORIENTAL,HSB7595,567598000,Thailand,3,no,High Risk Ship
+initial inspection,07.08.2024,Kobe (Japan),9820788,KYOWA FALCON,V7TR3,538007922,Marshall Islands,2,no,Standard Risk Ship
+initial inspection,07.08.2024,Kobe (Japan),9247871,COSCO KIKU,H9WB,354358000,Panama,2,no,Low Risk Ship
+initial inspection,06.08.2024,Hachinohe (Japan),0,SUJUNG,N/A,0,"Korea, Republic of",4,no,
+initial inspection,06.08.2024,Otaru (Japan),9031791,OLKHON,9LU2072,667001269,Sierra Leone,6,no,High Risk Ship
+initial inspection,06.08.2024,"Nagoya, Aichi (Japan)",9335800,AS SOPHIA,CQAB5,255806127,Portugal,2,no,High Risk Ship
+initial inspection,06.08.2024,Mizushima (Japan),9402756,JUPITER LEADER,3EIE4,373363000,Panama,6,no,Standard Risk Ship
+initial inspection,06.08.2024,Chiba (Japan),9033373,STAR GATE,HO3888,353653000,Panama,2,no,High Risk Ship
+follow-up inspection,06.08.2024,Chiba (Japan),9033373,STAR GATE,HO3888,353653000,Panama,4,no,
+initial inspection,06.08.2024,"Kure, Hiroshima (Japan)",9793301,KEUM YANG 1,D8GY,440710000,"Korea, Republic of",3,no,Standard Risk Ship
+initial inspection,06.08.2024,Hakata/Fukuoka (Japan),9151113,PROCYON,3FWY6,355076000,Panama,8,no,High Risk Ship
+initial inspection,06.08.2024,Wakamatsu/Kitakyushu (Japan),9942237,CLIMATE JUSTICE,5BFR6,209271000,Cyprus,0,no,Standard Risk Ship
+initial inspection,06.08.2024,Wakayama (Japan),9655793,OCEAN ACE 11,D7DD,440365000,"Korea, Republic of",5,no,High Risk Ship
+initial inspection,06.08.2024,"Nagoya, Aichi (Japan)",9302176,ONE HENRY HUDSON,3ETK4,370587000,Panama,0,no,Standard Risk Ship
+initial inspection,06.08.2024,Tokuyama (Japan),9392884,DIAMOND CORAL,3EMG5,357362000,Panama,2,no,Low Risk Ship
+initial inspection,06.08.2024,Ishinomaki (Japan),9363120,STRELITZIA,3FHZ8,351800000,Panama,1,no,Standard Risk Ship
+initial inspection,06.08.2024,Osaka (Japan),9711884,HE ZHONG 1,BIBL3,413377960,China,4,no,Standard Risk Ship
+follow-up inspection,06.08.2024,Wakayama (Japan),9655793,OCEAN ACE 11,D7DD,440365000,"Korea, Republic of",2,no,
+initial inspection,06.08.2024,Oita (Japan),9802126,NSU XANADU,D5QG5,636018559,Liberia,1,no,Low Risk Ship
+initial inspection,06.08.2024,Tokyo (Japan),9440045,OOCL NORFOLK,VREX4,477189700,"Hong Kong, China",0,no,Standard Risk Ship
+initial inspection,06.08.2024,Akitafunagawa (Japan),9449649,GLORIWIND,VRDH9,477969100,"Hong Kong, China",0,no,Standard Risk Ship
+initial inspection,06.08.2024,Himeji (Japan),9570840,ELVIA,D5XZ7,636092966,Liberia,0,no,High Risk Ship
+follow-up inspection,06.08.2024,Tomakomai (Japan),9314569,SHENG SHI 569,N/A,677086700,"Tanzania, United Republic of",6,no,
+initial inspection,06.08.2024,Takamatsu (Japan),1014266,LUNA HANA,DSFM6,441691000,"Korea, Republic of",2,no,Standard Risk Ship
+initial inspection,05.08.2024,Kawasaki (Japan),9509085,DS FLOURISH,V3VA,312042000,Belize,10,yes,High Risk Ship
+initial inspection,05.08.2024,Moji/Kitakyushu (Japan),9669615,MELBOURNE SPIRIT,V7A7367,538010749,Marshall Islands,5,no,Standard Risk Ship
+initial inspection,05.08.2024,Wakamatsu/Kitakyushu (Japan),9591600,VENUS HISTORY,5BKT3,209941000,Cyprus,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Sendaishiogama (Japan),9538490,FU RUI,3E3841,352002267,Panama,1,no,
+initial inspection,05.08.2024,Takamatsu (Japan),9933250,FIRST MARGAUX,3E2320,352002478,Panama,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Chiba (Japan),9959307,BUNUN XCEL,5LKC7,636022714,Liberia,0,no,Standard Risk Ship
+initial inspection,05.08.2024,"Kure, Hiroshima (Japan)",9354507,OCEAN PEGASUS,V7PJ4,538003240,Marshall Islands,3,no,Standard Risk Ship
+initial inspection,05.08.2024,Sendaishiogama (Japan),9538490,FU RUI,3E3841,352002267,Panama,10,no,High Risk Ship
+initial inspection,05.08.2024,Hiroshima (Japan),9336074,MORNING COMPOSER,D7BP,440204000,"Korea, Republic of",0,no,Standard Risk Ship
+follow-up inspection,05.08.2024,Hiroshima (Japan),9336074,MORNING COMPOSER,D7BP,440204000,"Korea, Republic of",1,no,
+initial inspection,05.08.2024,"Miyako, Iwate (Japan)",9552422,SOUTHERN HARMONY,HOHI,373508000,Panama,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Mizushima (Japan),8948997,HENG HE,V3ZX,312174000,Belize,2,no,High Risk Ship
+initial inspection,05.08.2024,Tokyo (Japan),9251016,PANSTAR GENIE NO. 2,D8RV,441246000,"Korea, Republic of",1,no,Low Risk Ship
+follow-up inspection,05.08.2024,Mizushima (Japan),8948997,HENG HE,V3ZX,312174000,Belize,4,no,
+initial inspection,05.08.2024,"Nagoya, Aichi (Japan)",9493262,WAN HAI 272,9V7585,566340000,Singapore,0,no,High Risk Ship
+initial inspection,05.08.2024,Yokkaichi (Japan),9599183,GL LA PAZ,3FNA3,357480000,Panama,10,no,Low Risk Ship
+follow-up inspection,05.08.2024,Sendaishiogama (Japan),9538490,FU RUI,3E3841,352002267,Panama,6,no,
+initial inspection,05.08.2024,Himeji (Japan),8974714,RISUN 5,V3NC,312132000,Belize,2,no,High Risk Ship
+initial inspection,05.08.2024,Nanao (Japan),9789831,JIA MAY,D5KP6,636017377,Liberia,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Osaka (Japan),9214513,QING YUN HE,BOMW,413295960,China,0,no,Low Risk Ship
+follow-up inspection,05.08.2024,Nanao (Japan),9789831,JIA MAY,D5KP6,636017377,Liberia,1,no,
+initial inspection,05.08.2024,Kobe (Japan),9285495,HOEGH SEOUL,LADO6,257496000,Norway,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Kawasaki (Japan),9708332,KAGUYA,3FVZ8,374814000,Panama,0,no,Standard Risk Ship
+initial inspection,05.08.2024,Hachinohe (Japan),9928360,HSL VARNA,5LDN7,636021351,Liberia,0,no,Standard Risk Ship
+follow-up inspection,05.08.2024,Himeji (Japan),8974714,RISUN 5,V3NC,312132000,Belize,3,no,
+Remote follow-up inspection,05.08.2024,Otaru (Japan),9385207,TRAWIND VISION,H8JB,372275000,Panama,3,no,
+initial inspection,02.08.2024,Tomakomai (Japan),9314569,SHENG SHI 569,N/A,677086700,"Tanzania, United Republic of",17,yes,High Risk Ship
+initial inspection,02.08.2024,Imabari (Japan),9593294,ANNE,9V9092,566262000,Singapore,0,no,Low Risk Ship
+follow-up inspection,02.08.2024,Imabari (Japan),9593294,ANNE,9V9092,566262000,Singapore,2,no,
+initial inspection,02.08.2024,Moji/Kitakyushu (Japan),9072692,DH 5,DSRB6,440054000,"Korea, Republic of",4,yes,High Risk Ship
+follow-up inspection,02.08.2024,Moji/Kitakyushu (Japan),9072692,DH 5,DSRB6,440054000,"Korea, Republic of",2,no,
+initial inspection,02.08.2024,Himeji (Japan),9539391,MUROU,3EZU5,354856000,Panama,3,no,Standard Risk Ship
+Remote follow-up inspection,02.08.2024,"Nagoya, Aichi (Japan)",9281358,TY INCHEON,D8TI,441127000,"Korea, Republic of",3,no,
+initial inspection,02.08.2024,Onomichi (Japan),9588495,PHILADELPHIA,V7XS4,538004559,Marshall Islands,0,no,Low Risk Ship
+initial inspection,02.08.2024,Onomichi (Japan),9699270,HELSINKI EAGLE,V7CS8,538007755,Marshall Islands,0,no,Standard Risk Ship
+follow-up inspection,02.08.2024,Onomichi (Japan),9699270,HELSINKI EAGLE,V7CS8,538007755,Marshall Islands,4,no,
+initial inspection,02.08.2024,"Nagoya, Aichi (Japan)",9281358,TY INCHEON,D8TI,441127000,"Korea, Republic of",1,no,Standard Risk Ship
+initial inspection,02.08.2024,Nanao (Japan),9105487,SANSTAR DREAM,DSQX2,441743000,"Korea, Republic of",1,no,Low Risk Ship
+initial inspection,02.08.2024,Tokushima (Japan),9665865,NARUTO,3FRJ9,370577000,Panama,0,no,Standard Risk Ship
+initial inspection,02.08.2024,Hakata/Fukuoka (Japan),9427562,SPRING WIND,V7A5969,538010383,Marshall Islands,1,no,Standard Risk Ship
+initial inspection,02.08.2024,Chiba (Japan),9384784,ASL STAR,3EFX3,353645000,Panama,3,no,High Risk Ship
+follow-up inspection,02.08.2024,Chiba (Japan),9384784,ASL STAR,3EFX3,353645000,Panama,4,no,
+initial inspection,02.08.2024,Niigata (Japan),9929261,PROACTIVE EARTH,5LCG5,636021096,Liberia,0,no,Low Risk Ship
+initial inspection,02.08.2024,Tokyo (Japan),9846536,JOSCO CORA,VRWE2,477966800,"Hong Kong, China",2,no,Standard Risk Ship
+initial inspection,02.08.2024,Kobe (Japan),9866184,LADY ANNE,D5XA4,636019967,Liberia,1,no,Standard Risk Ship
+initial inspection,02.08.2024,Mizushima (Japan),9802085,CAPE CLOVER,3FET8,373204000,Panama,0,no,Standard Risk Ship
+initial inspection,02.08.2024,Shimizu (Japan),9755684,NEWYORK HARMONY,3FCL9,354228000,Panama,0,no,Standard Risk Ship
+initial inspection,02.08.2024,Tsuruga (Japan),9244685,CRIMSON SATURN,H9NN,351998000,Panama,0,no,Standard Risk Ship
+initial inspection,02.08.2024,Fushiki (Japan),9866615,FEDERAL INNOKO,V7A2723,538008753,Marshall Islands,0,no,Standard Risk Ship
+initial inspection,01.08.2024,Takamatsu (Japan),8864543,WINNER,9LU2679,667001876,Sierra Leone,9,yes,Standard Risk Ship
+initial inspection,01.08.2024,Hakata/Fukuoka (Japan),9601936,DARYA GANGA,VRJB8,477739400,"Hong Kong, China",1,no,Standard Risk Ship
+initial inspection,01.08.2024,Onomichi (Japan),9780275,COSMIC OAK,3ETZ9,374820000,Panama,0,no,Standard Risk Ship
+initial inspection,01.08.2024,"Kure, Hiroshima (Japan)",9644055,GLOBAL ROUND,3FBO4,351225000,Panama,4,no,Standard Risk Ship
+initial inspection,01.08.2024,Yokkaichi (Japan),9730969,ULSAN PIONEER,D7WK,441395000,"Korea, Republic of",2,no,Standard Risk Ship
+initial inspection,01.08.2024,Tomakomai (Japan),9826392,SUN QUEEN,H9HG,374112000,Panama,1,no,Standard Risk Ship
+follow-up inspection,01.08.2024,Tomakomai (Japan),9826392,SUN QUEEN,H9HG,374112000,Panama,1,no,
+Remote follow-up inspection,01.08.2024,Wakamatsu/Kitakyushu (Japan),9147057,MING HE,V3TS8,312738000,Belize,3,no,
+initial inspection,01.08.2024,Yokohama (Japan),9284738,PYXIS LEADER,H9ML,354591000,Panama,10,no,Standard Risk Ship
+initial inspection,01.08.2024,"Nagoya, Aichi (Japan)",9146209,JUNE XIN,V3DX3,312916000,Belize,2,no,High Risk Ship
+follow-up inspection,01.08.2024,Yokohama (Japan),9629237,SHINLINE 15,9WLK6,533170107,Malaysia,1,no,
+initial inspection,01.08.2024,"Kashima, Ibaraki (Japan)",9514016,TTM HARMONY,3FDH7,371749000,Panama,2,no,Standard Risk Ship
+initial inspection,01.08.2024,Chiba (Japan),9997438,HIBIKI,3E5367,352003974,Panama,0,no,Standard Risk Ship
+initial inspection,01.08.2024,Osaka (Japan),9295842,HOEGH BERLIN,LASY8,258106000,Norway,0,no,Standard Risk Ship
+initial inspection,01.08.2024,Moji/Kitakyushu (Japan),9542219,HIROYOU,V3HM,312291000,Belize,4,no,High Risk Ship
+follow-up inspection,01.08.2024,Moji/Kitakyushu (Japan),9542219,HIROYOU,V3HM,312291000,Belize,2,no,
+initial inspection,01.08.2024,Imabari (Japan),9523691,HUB DRAGON,HO9378,352768000,Panama,1,no,
+initial inspection,01.08.2024,Kawasaki (Japan),9981922,GREEN WAVE,KGWS,338721000,United States,0,no,Standard Risk Ship
