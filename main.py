@@ -7,7 +7,7 @@ import folium
 
 # Page configuration
 st.set_page_config(
-    page_title="Port State Control Dashboard",
+    page_title="Port State Control Dashboard - Japan August 2024",
     page_icon="🚢",
     layout="wide",
     initial_sidebar_state="expanded")
@@ -44,47 +44,56 @@ st.markdown("""
 # Load data
 df = pd.read_csv('japan2024Aug.csv')
 
+# Convert date to datetime format
+df['Date'] = pd.to_datetime(df['Date'], format='%d.%m.%Y')
+
 # Sidebar
 with st.sidebar:
     st.title('🚢 Port State Control Dashboard')
     
+    month_list = ['August']
+    selected_month = st.selectbox('Select a month', month_list, index=0)
+    
     place_list = list(df['Place'].unique())
     selected_place = st.selectbox('Select a place', place_list, index=0)
     
-    month_list = ['August', 'September', 'October', 'November', 'December']
-    selected_month = st.selectbox('Select a month', month_list, index=0)
-    
-    df_filtered = df[(df['Place'] == selected_place) & (df['Date'].str.contains(selected_month))]
+    df_filtered = df[(df['Place'] == selected_place) & (df['Date'].dt.strftime('%B') == selected_month)]
 
 # Map visualization
 def make_map(data):
-    # Using a default tile layer that doesn't require custom attribution
-    map = folium.Map(location=[36.2048, 138.2529], zoom_start=6)
+    # Create a map centered around Japan
+    map = folium.Map(location=[36.2048, 138.2529], zoom_start=6, tiles='Stamen Terrain')
+    
+    # Add markers for each inspection location
     for index, row in data.iterrows():
-        if pd.notna(row['Latitude']) and pd.notna(row['Longitude']):  # Check if latitude and longitude are not NaN
-            folium.Marker(
-                location=[row['Latitude'], row['Longitude']],
-                popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
-            ).add_to(map)
+        folium.Marker(
+            location=[row['Latitude'], row['Longitude']],
+            popup=f"{row['Place']} - {row['Deficiencies']} Deficiencies"
+        ).add_to(map)
+    
     return map
 
+# Since we don't have Latitude and Longitude in the CSV, we'll skip the map part.
+# If you have this data, you can uncomment the following part and use make_map function.
+
 # Generate map
-map = make_map(df_filtered)
+# map = make_map(df_filtered)
+# st.map(map)
 
 # Plots
 def make_heatmap(data):
     heatmap = alt.Chart(data).mark_rect().encode(
-        y=alt.Y('Type:O', axis=alt.Axis(title="Inspection Type")),
-        x=alt.X('Date:O', axis=alt.Axis(title="Date")),
+        y=alt.Y('Type:N', axis=alt.Axis(title="Inspection Type")),
+        x=alt.X('Date:N', axis=alt.Axis(title="Date")),
         color=alt.Color('Deficiencies:Q', scale=alt.Scale(scheme='redyellowblue')),
-        tooltip=['Ship Name', 'Deficiencies']
+        tooltip=['Ship Name', 'Deficiencies', 'Detention']
     ).properties(width=600, height=400)
     return heatmap
 
 heatmap = make_heatmap(df_filtered)
 
 # Dashboard Main Panel
-col1, col2, col3 = st.columns([1, 4, 1])
+col1, col2 = st.columns([1, 3])
 
 with col1:
     st.markdown('#### Total Inspections')
@@ -94,15 +103,5 @@ with col2:
     st.markdown('#### Inspections Heatmap')
     st.altair_chart(heatmap, use_container_width=True)
 
-with col3:
-    st.markdown('#### Map of Inspections')
-    st.map(map)
-
-# Save map to HTML
-map.save('inspections_map.html')
-st.download_button(
-    label="Download Inspections Map",
-    data=open('inspections_map.html', 'rb').read(),
-    file_name='inspections_map.html',
-    mime='text/html'
-)
+# If you have the latitude and longitude data, you can display the map with:
+# st.map(map)
