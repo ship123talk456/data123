@@ -16,7 +16,7 @@ def load_data(file_path):
 st.title("Japan PSC Inspection Dashboard - August 2024")
 
 # File path for CSV (replace with your local path if needed)
-csv_file = '/mnt/data/japan2024Aug.csv'
+csv_file = 'japan2024Aug.csv'
 df = load_data(csv_file)
 
 # Sidebar for filtering data
